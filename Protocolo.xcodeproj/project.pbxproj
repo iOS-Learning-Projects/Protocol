@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E8E387361E8AD63E00225AAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E387351E8AD63E00225AAB /* main.m */; };
+		E8E3873F1E8AD79B00225AAB /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E3873E1E8AD79B00225AAB /* Programmer.m */; };
+		E8E387421E8ADA6900225AAB /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E387411E8ADA6900225AAB /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		E8E387321E8AD63E00225AAB /* Protocolo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Protocolo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E387351E8AD63E00225AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8E3873C1E8AD67400225AAB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E8E3873D1E8AD79B00225AAB /* Programmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
+		E8E3873E1E8AD79B00225AAB /* Programmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
+		E8E387401E8ADA6900225AAB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		E8E387411E8ADA6900225AAB /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				E8E387351E8AD63E00225AAB /* main.m */,
+				E8E3873C1E8AD67400225AAB /* Person.h */,
+				E8E387401E8ADA6900225AAB /* Game.h */,
+				E8E387411E8ADA6900225AAB /* Game.m */,
+				E8E3873D1E8AD79B00225AAB /* Programmer.h */,
+				E8E3873E1E8AD79B00225AAB /* Programmer.m */,
 			);
 			path = Protocolo;
 			sourceTree = "<group>";
@@ -120,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E387421E8ADA6900225AAB /* Game.m in Sources */,
 				E8E387361E8AD63E00225AAB /* main.m in Sources */,
+				E8E3873F1E8AD79B00225AAB /* Programmer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
